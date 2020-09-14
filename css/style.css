@@ -33,3 +33,11 @@ img {
     display: block;
     width: 560px;
 }
+iframe {
+    display: inline;
+}
+.description {
+    display: inline-block;
+    padding-left: 2em;
+    max-width: 150px;
+}
