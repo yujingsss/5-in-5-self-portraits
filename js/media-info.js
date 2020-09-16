@@ -16,7 +16,7 @@ function setup() {
   changeC = false;
   storiesNum = mediaObj.stories.length;
   button = createButton("CHANGE CLIENTS");
-  button.position(width + 50);
+  button.position(width + 75);
   button.style('background-color', 'white');
   button.style('border', '1px solid black');
   button.mousePressed(()=>{
