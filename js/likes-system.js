@@ -16,8 +16,8 @@ function setup() {
   }
   description1 = createP('This is a visualization of likes system on Instagram. We \'like\' some post depending on our interests or other factors, but all of those likes are related to each other and generate a system. This like system is not only the representation of ourselves but also create a personalized profile for Instagram to send us push norifications and ads.');
   description2 = createP('Move MOUSE around the canvas will change the radiation range of our \'likes\' in the whole system.');
-  description2.position(width + 50, 125);
-  description1.position(width + 50, 225);
+  description2.position(width + 75, 125);
+  description1.position(width + 75, 225);
   description1.style('width', '225px');
   description2.style('width', '225px');
 }

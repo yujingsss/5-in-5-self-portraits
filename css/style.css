@@ -2,7 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 2em;
+    margin: 1em 3em 2em 3em;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 footer {
     font-size: 10px;
@@ -33,7 +38,7 @@ img {
     display: block;
     width: 560px;
 }
-iframe {
+.inline {
     display: inline;
 }
 .description {

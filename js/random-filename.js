@@ -12,7 +12,7 @@ function setup() {
     background(220);
     // console.log(bank.length);
     description1 = createP('This is a 32 bit file name generator. All photo data downloaded from Instagram are named using a form of 32 bit number and letter. In this technology world, our lives have a very close realtionship with numbers and letters.');
-    description1.position(width + 50, 100);
+    description1.position(width + 75, 100);
     description1.style('width', '225px');
     button = createButton("GENERATE");
     button.position(75,125);

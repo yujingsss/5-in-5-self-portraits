@@ -25,8 +25,8 @@ function setup() {
   });
   description1 = createP('This is a visualization of Instagram stories media inforamtion. The text printed on the screen is acquired from the media JSON file of my instagram. The information in this visualization include \'taken_at\' and \'path\'.');
   description2 = createP('Click at the \'CHANGE CLIENTS\' button allows the switch between the visualization of single client and multiple clients information.');
-  description1.position(width + 50, 125);
-  description2.position(width + 50, 300);
+  description1.position(width + 75, 125);
+  description2.position(width + 75, 300);
   description1.style('width', '225px');
   description2.style('width', '225px');
 }
